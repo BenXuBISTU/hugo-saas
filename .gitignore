@@ -11,7 +11,7 @@ birdy.canvas# Whitelist approach for Hugo site
 
 # Only include specific directories and files
 /*
-
+!.hugo-version
 # Hugo-specific directories and files
 !/archetypes/
 !/assets/
