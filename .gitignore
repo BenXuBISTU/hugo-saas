@@ -1,0 +1,92 @@
+# Package Files
+node_modules/
+
+# Local Netlify folder
+.netlify
+
+# Obsidian
+.obsidian/
+*.canvas
+birdy.canvas# Whitelist approach for Hugo site
+
+# Only include specific directories and files
+/*
+
+# Hugo-specific directories and files
+!/archetypes/
+!/assets/
+!/config.toml
+!/content/
+!/layouts/
+!/static/
+!/themes/
+!/README.md
+!/LICENSE
+
+# Exclude everything else, including Obsidian files
+.obsidian/
+*.canvas
+birdy.canvas
+
+# Development and build artifacts
+/public/
+/resources/
+*.log
+
+# 首先忽略所有文件
+*
+.*
+
+# 然后只包含需要的文件和目录
+
+# Hugo 配置文件
+!config.toml
+!hugo.toml
+
+# 内容文件
+!content/
+!content/**
+
+# 主题相关
+!themes/
+!themes/**
+
+# 静态文件
+!static/
+!static/**
+
+# 布局文件
+!layouts/
+!layouts/**
+
+# 资源文件
+!assets/
+!assets/**
+
+# 数据文件
+!data/
+!data/**
+
+# i18n 文件
+!i18n/
+!i18n/**
+
+# archetypes
+!archetypes/
+!archetypes/**
+
+# 其他必要文件
+!.gitignore
+!.gitmodules
+!README.md
+!LICENSE
+
+# 忽略生成的文件
+public/
+resources/
+.hugo_build.lock
+node_modules/
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
