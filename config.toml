@@ -1,36 +1,24 @@
-baseURL = "https://hugo-saas.pages.dev/"
+baseURL = "/"  # 改为您的实际网站URL
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 title = "我的 Hugo 博客"
-theme = "PaperMod"
-relativeURLs = false
+theme = "PaperMod"  # 修改为实际的主题文件夹名
+relativeURLs = true
 
 [params]
-env = "production"
 defaultTheme = "auto"
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-ShowWordCount = true
-ShowRssButtonInSectionTermList = true
-UseHugoToc = true
-disableSpecial1stPost = false
-disableScrollToTop = false
-comments = false
-hidemeta = false
-hideSummary = false
-showtoc = false
-tocopen = false
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
+ShowCodeCopyButtons = false
+ShowRssButtonInSectionTermList = false
+ShowToc = false
 
 [params.homeInfoParams]
 Title = "你好 👋"
-Content = """
-欢迎来到我的博客
-这里是我的个人空间，我会在这里分享一些技术文章和生活感悟。
-"""
+Content = "欢迎来到我的博客"
 
 [params.profileMode]
 enabled = false
@@ -40,17 +28,18 @@ enabled = false
     identifier = "posts"
     name = "文章"
     url = "/posts/"
-    weight = 10
+    weight = 1
 [[menu.main]]
     identifier = "tags"
     name = "标签"
     url = "/tags/"
-    weight = 20
+    weight = 2
+
 [[menu.main]]
     identifier = "categories"
     name = "分类"
     url = "/categories/"
-    weight = 30
+    weight = 3
 
 [markup]
 [markup.highlight]
