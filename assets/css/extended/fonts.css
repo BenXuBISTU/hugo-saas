@@ -1,0 +1,24 @@
+/* 定义字体 */
+@font-face {
+  font-family: "LXGW Heart Serif";
+  src: url("/fonts/LXGWHeartSerif.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 应用字体 */
+body,
+.post-content {
+  font-family: "LXGW Heart Serif", 
+    "HarmonyOS Sans SC", /* 鸿蒙字体 */
+    "PingFang SC",       /* 苹果系统字体 */
+    "Microsoft Yahei",   /* Windows 系统字体 */
+    "Noto Sans SC",      /* Google Noto 字体 */
+    sans-serif;         /* 最后的通用后备 */
+}
+
+/* 代码块使用默认字体 */
+.post-content code {
+  font-family: monospace;
+}
