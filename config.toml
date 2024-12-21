@@ -1,24 +1,30 @@
-baseURL = "/"  # 改为您的实际网站URL
+baseURL = "https://tips.git4ta.fun/"
 defaultContentLanguage = "zh-cn"
 languageCode = "zh-CN"
 hasCJKLanguage = true
-title = "我的 Hugo 博客"
-theme = "PaperMod"  # 修改为实际的主题文件夹名
+title = "觅钥贴士"
+theme = "PaperMod"
 relativeURLs = true
 
 [params]
 defaultTheme = "auto"
-ShowReadingTime = false
+ShowReadingTime = true
+ShowWordCount = true
 ShowShareButtons = false
-ShowPostNavLinks = false
-ShowBreadCrumbs = false
-ShowCodeCopyButtons = false
-ShowRssButtonInSectionTermList = false
-ShowToc = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowRssButtonInSectionTermList = true
+ShowToc = true
 
 [params.homeInfoParams]
-Title = "你好 👋"
-Content = "欢迎来到我的博客"
+Title = "觅钥贴士 👋"
+Content = "探索编剧创作的思考与灵感"
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
 
 [params.profileMode]
 enabled = false
