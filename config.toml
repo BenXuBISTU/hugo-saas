@@ -64,6 +64,11 @@ enabled = false
     unsafe = true
     css = true  # 启用 CSS 渲染
 
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+
 [build]
   writeStats = true  # 生成资源统计文件
   useResourceCacheWhen = "always"
