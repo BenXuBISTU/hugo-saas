@@ -3,14 +3,14 @@ tags:
   - post
   - brexit
 draft: false
-title: 脱欧之旅
+title: Journey of Fools
 date: 
 categories:
   - 交易
   - 玄甲
 aliases:
-  - journey of fool
-lastmod: 2024-12-21T05:58:25.856Z
+  - journey
+lastmod: 2024-12-21T06:06:01.896Z
 ---
 > 👺 英国脱欧的七年之痒\
 > Brexit 并不是一次开始的结束，而是一次结束的开始。
